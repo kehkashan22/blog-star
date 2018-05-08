@@ -1,4 +1,3 @@
-
 import { PreventLoggedInAccessService } from './auth/prevent-logged-in-access.service';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
@@ -9,20 +8,14 @@ import { AuthGuard } from './auth/auth-guard.service';
 import { ArticleDetailComponent } from './article-detail/article-detail.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent},
   {
-    path: 'user',
-    loadChildren: './user/user.module#UserModule',
-    canActivate: [AuthGuard]
-  },
-  {
-    path: 'articles',
+    path: '',
     loadChildren: './categories/categories.module#CategoriesModule',
     canActivate: [AuthGuard]
   },
   {
-    path: 'article',
-    loadChildren: './article-detail/article-detail.module#ArticleDetailModule',
+    path: 'user',
+    loadChildren: './user/user.module#UserModule',
     canActivate: [AuthGuard]
   },
   {

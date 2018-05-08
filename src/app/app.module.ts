@@ -26,7 +26,6 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireStorageModule } from 'angularfire2/storage';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { environment } from '../environments/environment';
 /* For Firebase Related */
 import * as firebase from 'firebase';

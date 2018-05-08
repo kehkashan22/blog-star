@@ -11,7 +11,7 @@ h3 {
   font-size: 16px;
   font-weight: 300;
   font-family: "Roboto", Helvetica;
-  color: #afaeae;
+  color: #f2f2f2;
   text-align: center;
   margin: 0 0 15px;
   line-height: 25px;
@@ -26,8 +26,8 @@ h3 {
  .btn-primary:active.focus, .btn-primary.active.focus,
  .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #464880;
-  border-color: #464880;
+  background-color: rgb(103, 192, 142);
+  border-color: rgb(103, 192, 142);
 }
 
 .has-error {
@@ -36,14 +36,14 @@ h3 {
 }
 
 a {
-  color: #464880;
+  color: rgb(103, 192, 142);
 }
 
 
 /*THGIS*/
 
 h4 {
-  color: #464880;
+  color: rgb(103, 192, 142);
 }
 input{
   color: #a3a3a3;
@@ -70,13 +70,13 @@ input + .input-icon i {
 
 input:focus {
   outline: 0;
-  border-color:  #464880;
+  border-color:  rgb(103, 192, 142);
 }
 input:focus + .input-icon i {
-  color: #464880;
+  color: rgb(103, 192, 142);
 }
 input:focus + .input-icon:after {
-  border-right-color: #464880;
+  border-right-color: rgb(103, 192, 142);
 }
 
 .input-group-custom {
@@ -153,47 +153,36 @@ input.ng-touched.ng-invalid.ng-dirty {
 }
 
 .reset_password_mail{
-  color:#6571b5;
+  color:rgb(103, 192, 142);
 }
 
 /***********CENTERING HR *****************/
-.hr-center {
+ .hr-center {
   text-align: center;
   background: transparent;
-  color: #818078;
+  color: #f3f3f3;
   font-family: Futura, sans-serif;
   max-width: 50%;
   margin: 40px auto;
 }
 
-.hr-text {
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: black;
-  text-align: center;
-  height: 1.5em;
-  opacity: .5;
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: rgba(224, 215, 215, 0.8);
+	margin: 8px 0px;
 }
-.hr-text:before {
-  content: '';
-  background: linear-gradient(to right, transparent, #818078, transparent);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  height: 1px;
-}
-.hr-text:after {
-  content: attr(data-content);
-  position: relative;
-  display: inline-block;
-  color: black;
-  padding: 0 .5em;
-  line-height: 1.5em;
-  color: #818078;
-  background-color: #fcfcfa;
+.hr-sect:before,
+.hr-sect:after {
+	content: "";
+	flex-grow: 1;
+	background: linear-gradient(to right, transparent, #f3f3f3, transparent);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
 }
 
 
@@ -206,15 +195,16 @@ input.ng-touched.ng-invalid.ng-dirty {
 .btn {
   display: inline-block;
   line-height: 35px;
+  margin: 8px;
   padding: 7px;
   font-size: 16px;
   position: relative;
   opacity: .999;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(101, 113, 181,0.4);
-  box-shadow: 0 10px 30px 0 rgba(101, 113, 181,0.4);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(103, 192, 142,0.4);
+  box-shadow: 0 10px 30px 0 rgba(103, 192, 142,0.4);
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
-  margin-top: 5px ;
+  margin: 5px 20px 5px 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -223,9 +213,9 @@ input.ng-touched.ng-invalid.ng-dirty {
 }
 
 .btn-border {
-  background-color: #6571b5;
-  border: 1px solid #e5e5e5;
-  color: #ffffff;
+  background-color: rgb(103, 192, 142);
+  border: 1px solid #3f3f3f;
+  color: #fcfcfa;
 }
 .btn-border:before, .btn-border:after {
   content: '';
@@ -261,11 +251,12 @@ input.ng-touched.ng-invalid.ng-dirty {
 }
 
 .btn-border.btn-purple:before, .btn-border.btn-purple:after {
-  border-color: #6571b5;
+  border-color: rgb(103, 192, 142);
 }
 .btn-border.btn-purple:hover {
-  color: #6571b5;
+  color: rgb(103, 192, 142);
 }
+
 
 
 /********UNDERLINE********/
@@ -275,13 +266,13 @@ input.ng-touched.ng-invalid.ng-dirty {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #464880;
+  background-color: rgb(103, 192, 142);
   content: "";
   transition: width 0.2s;
  }
 
  .underlineHover:hover {
-  color: #464880 !important;
+  color: rgb(103, 192, 142) !important;
   font-weight: bold !important;
  }
 
@@ -292,12 +283,12 @@ input.ng-touched.ng-invalid.ng-dirty {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #464880;
+  background-color: rgb(103, 192, 142);
   content: "";
   transition: width 0.2s;
  }
 
  .underlineHover:hover {
-  color: #464880 !important;
+  color: rgb(103, 192, 142) !important;
   font-weight: bold !important;
  }

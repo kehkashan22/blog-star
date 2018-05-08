@@ -47,9 +47,9 @@ export class ArticlesComponent implements OnInit, OnDestroy {
           });
           this.articles.sort(
             (a, b) =>
-              moment(a.date).isSameOrAfter(moment(b.date))
+              moment(a.date).isSameOrBefore(moment(b.date))
                 ? 1
-                : moment(b.date).isSameOrAfter(moment(a.date)) ? -1 : 0
+                : moment(b.date).isSameOrBefore(moment(a.date)) ? -1 : 0
           );
           this.temparticles = this.articles.slice();
           console.log(doc.id, '=>', doc.data());

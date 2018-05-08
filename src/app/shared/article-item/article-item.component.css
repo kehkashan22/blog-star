@@ -32,7 +32,7 @@
 /* TRYING */
 
 .description a {
-  color: #75d13b;
+  color: #68c032;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -57,7 +57,7 @@
 }
 .description p:after {
   content: "";
-  background: #75d13b;
+  background: #68c032;
   height: 2px;
   width: 10%;
   /*POSITION*/
