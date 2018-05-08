@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 web-div">
+    <!-- <a style="cursor: pointer;" *ngFor="let categoryEl of categories; let i = index"
+      [routerLink]="categoryEl.id"
+      routerLinkActive="active"
+    class="list-group-item list-style"
+    >
+      <p class="category-name">{{ categoryEl.name }}</p>
+    </a> -->
+
+    <app-category-item
+    class="list-style"
+    *ngFor="let chickenEl of categories; let i = index"
+    [chicken]="chickenEl"
+    [index]="chickenEl.id"></app-category-item>
+  </div>
+
+  <div class="mob-div col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <a style="cursor: pointer;">
+      <div class="dropdown">
+        <button class="btn btn-primary btn-lg dropdown-toggle width-drop" type="button" data-toggle="dropdown">Acts
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li *ngFor="let categoryEl of categories; let i = index">
+            <a [routerLink]="categoryEl.id"
+            routerLinkActive="active"
+            class="list-group-item" [class.active]="categoryEl.id === selectedRow" class="box clearfix">{{ categoryEl.name }}</a>
+          </li>
+        </ul>
+      </div>
+    </a>
+
+  </div>
+</div>

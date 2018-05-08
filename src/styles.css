@@ -1,0 +1,119 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background:#A8D0E6;
+}
+
+.my-pagination /deep/ .ngx-pagination .current {
+  background: #6571b5;
+
+}
+
+.ngx-pagination a, .ngx-pagination button {
+  color:#3f3f3f;
+}
+
+.daterangepicker /deep/ td.active,
+.daterangepicker td.active:hover {
+  background-color: #6571b5 !important;
+}
+
+.daterangepicker /deep/ td.in-range {
+  background-color: #8792cc !important;
+}
+
+.daterangepicker /deep/ .ranges li {
+  color: #6571b5 !important;
+}
+
+.daterangepicker /deep/ .ranges li.active,
+.ranges li:hover {
+  background: #6571b5 !important;
+  border: 1px solid #6571b5 !important;
+  color: #fff !important;
+}
+
+.daterangepicker /deep/ .btn-success, .daterangepicker /deep/ .btn-success:focus{
+  color: #fff;
+  background-color: #6571b5;
+  border-color: #6571b5;
+}
+
+.daterangepicker /deep/ .input-mini.active {
+  border: 1px solid #6571b5 !important;
+}
+
+
+/* .............profile ................... */
+#header__profile{
+  text-align: left;
+  padding-left:10px;
+  display: grid;
+  grid-template-columns:60px auto;
+  align-items: center;
+}
+
+#profile__name{
+  text-align: left;
+  margin: 0;
+  color:#3f3f3f;
+  font-size: 20px;
+  padding-left:8px;
+}
+
+#profile__email{
+  text-align: left;
+  color:#3f3f3f;
+  font-size: 12px;
+  padding-left:8px;
+}
+
+#header__profile_inner{
+  padding:5px;
+  align-self: center;
+}
+
+#header_line {
+  margin:0;
+}
+
+.header__profile_img_container    {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#header__profile img#profile_img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+/* ....................well............ */
+
+.well{
+  min-height: 20px;
+  padding: 11px;
+  color: #48487d;
+  margin-bottom: 20px;
+  background-color: #6571b53c;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color:#ed7272;
+  border-radius: 50%;
+}

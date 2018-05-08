@@ -1,0 +1,33 @@
+.app-card{
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+}
+
+/* .alert-error, .alert-success, .alert-info {
+  padding: 15px !important;
+  margin-bottom: 20px !important;
+  border: 1px solid transparent !important;
+  border-radius: 4px !important;
+} */
+
+
+
+.modal.fade {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal.fade.is-error .modal-dialog .modal-content  .modal-body {
+  color: red !important;
+}
+
+.modal-dialog {
+  vertical-align:middle;
+}

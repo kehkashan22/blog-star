@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.width-drop {
+  background-color: #6571b5;
+  padding:0px 0px;
+  font-size: 16px;
+  color:#fff;
+  width:100%;
+}
+.dropdown-menu{
+  font-size:12px;
+  align:center;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.gutter{
+  margin-left:0px;
+}
+
+ @media (min-width: 360px) and (max-width: 640px) {
+  .web-div {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .web-div {
+    display: none;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1200px) {
+  .web-div {
+    display: none;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+  .web-div {
+    display: none;
+  }
+}
+
+@media (min-width: 996px) and (max-width: 1200px) {
+  .web-div{
+    display: none;
+  }
+}
+
+@media (min-width: 1201px) {
+  .mob-div {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .web-div {
+    display: none;
+  }
+}
+
+.category-name{
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-style{
+  margin:10px;
+  border-radius: 5px;
+  box-shadow: 5px;
+  /* border:#464880 solid 1px; */
+  text-align: center;
+}
+
+.active:hover, .active:focus{
+  background-color: #464880;
+  color:#fff;
+}
+
+.active{
+  background-color: #464880;
+  color:#fff;
+}
+

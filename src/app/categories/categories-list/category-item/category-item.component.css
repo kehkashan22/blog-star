@@ -1,0 +1,21 @@
+.category-name{
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-style{
+  margin:10px;
+  border-radius: 5px;
+  box-shadow: 5px;
+  /* border:#464880 solid 1px; */
+  text-align: center;
+}
+
+.active:hover, .active:focus{
+  background-color: #464880;
+  color:#fff;
+}
+
+.active{
+  background-color: #464880;
+  color:#fff;
+}
