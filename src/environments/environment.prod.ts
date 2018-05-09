@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: 'AIzaSyDrPHDMhID01Gt39lPW0f0K-obnKh7iBeo',
-    authDomain: 'gst-common-portal.firebaseapp.com',
-    databaseURL: 'https://gst-common-portal.firebaseio.com',
-    projectId: 'gst-common-portal',
-    storageBucket: 'gst-common-portal.appspot.com',
-    messagingSenderId: '985198041045'
+    apiKey: 'AIzaSyDWPRVFdR3fW0s79rMahQrJgazpTnZbux4',
+    authDomain: 'articles-galore.firebaseapp.com',
+    databaseURL: 'https://articles-galore.firebaseio.com',
+    projectId: 'articles-galore',
+    storageBucket: 'articles-galore.appspot.com',
+    messagingSenderId: '1049939193124'
   }
 };
