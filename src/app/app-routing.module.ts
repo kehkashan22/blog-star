@@ -10,12 +10,22 @@ import { ArticleDetailComponent } from './article-detail/article-detail.componen
 const appRoutes: Routes = [
   {
     path: '',
-    loadChildren: './categories/categories.module#CategoriesModule',
+    component: HomeComponent,
     canActivate: [AuthGuard]
   },
   {
     path: 'user',
     loadChildren: './user/user.module#UserModule',
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'articles',
+    loadChildren: './categories/categories.module#CategoriesModule',
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'article',
+    loadChildren: './article-detail/article-detail.module#ArticleDetailModule',
     canActivate: [AuthGuard]
   },
   {
